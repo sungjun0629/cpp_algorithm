@@ -1,0 +1,3 @@
+STL을 이용해 std::stack, std::queue, std::priority_queue와 같은 컨테이너 어댑터의 형태로 구현할 수 있다.
+선택한 어댑터가 원하는 성능을 구현하지 못할 때는 간단히 *템플릿 파라미터를 변경해 다른 컨테이너 구현을 사용하면 된다.
+-> std::stack 인스턴스의 구현을 std::vector에서 std::deque로 바꿔주면 된다.
